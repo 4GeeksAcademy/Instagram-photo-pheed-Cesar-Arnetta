@@ -1,0 +1,49 @@
+body {
+    font-family: "roboto";
+}
+#myTab {
+    display: flex;
+    justify-content: center;
+}
+#myTabContent {
+  display: flex;
+  justify-content: center;
+}
+.col-6 {
+  width: 80rem;
+}
+.card {
+  margin-top: 5px;
+}
+.header-post-separator {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  margin-top: 15px;
+}
+.square-image {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.left-icon {
+  padding-right: 5px;
+}
+.icon-box {
+  padding: 0px 5px;
+}
+.rigth-icon {
+  padding: 0px 5px;
+}
